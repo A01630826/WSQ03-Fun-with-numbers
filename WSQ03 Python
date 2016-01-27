@@ -1,0 +1,17 @@
+print("Este programa ejecuta las operaciones de resta, multiplicacion y division de dos numeros dados")
+
+num1 = int(input("ingrese un numero: "))
+num2 = int(input("ingrese otro numero: "))
+
+dif1 = num1 - num2
+dif2 = num2 - num1
+prod = num1 * num2
+diven = num1 // num2
+divres = num1 % num2
+
+print("Los resultados de las operaciones son: ")
+print("resta de "+(str(num1)+" ")+ "- " +(str(num2)+"")+": "+(str(dif1)+"\t"))
+print("resta de " +(str(num2)+" ") + "- " + (str(num1)+" ") + ": " + (str(dif2)+"\t"))
+print("producto de " + (str(num1)+" ") + "* " + (str(num2)+" ") + ": " + (str(prod)+"\t"))
+print("Resultado entero de la division de " + (str(num1)+" ") + "/ " + (str(num2)+" ") + ": " + (str(diven)+"\t"))
+print("Residuo de la division de " + (str(num1)+" ") + "/" + (str(num2)+" ") + ": " + (str(divres)+"\t"))
